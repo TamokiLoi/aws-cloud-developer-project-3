@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: reverseproxy
-          image: duylkend/reverseproxy:v1
+          image: tamokinguyen/reverseproxy:v1
           ports:
             - containerPort: 8080
           envFrom:
